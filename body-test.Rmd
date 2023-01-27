@@ -1,0 +1,16 @@
+---
+title: ""
+author: ""
+output: 
+  bookdown::word_document2:
+     reference_docx: templates/fsar-template.docx
+     number_sections: false
+---
+
+## A heading here {-}
+
+some text here
+
+### Subheading here {-}
+
+some more text
