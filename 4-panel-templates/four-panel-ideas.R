@@ -134,8 +134,11 @@ legend("top", "Recruitment", bty="n")
 }
 
 tiff.fn <- "CSAS-template-4-panel-figure-for-SAR.tiff"
-
 tiff(tiff.fn, width=2000, height=2000, res=300, compression="lzw")
 four.panel.fct(sim.df)
 dev.off()
 
+png.fn <- "CSAS-template-4-panel-figure-for-SAR.png"
+png(png.fn, width=2000, height=2000, res=300)
+four.panel.fct(sim.df)
+dev.off()
